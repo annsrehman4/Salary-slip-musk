@@ -1,0 +1,178 @@
+
+  /* Start */
+  body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    padding: 20px;
+}
+   .salary-slip {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .company-name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .emp-details {
+    margin-top: 20px;
+  } 
+  
+   .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th {
+    text-align: left;
+    border: 1px solid black;
+    padding: 5px;
+    
+  }
+  .tables{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .table td {
+    border: 1px solid black;
+    padding: 10px;
+
+  }
+  
+  .total {
+    text-align: right;
+  } 
+  
+  .watermark {
+    position: absolute;
+    justify-content: center;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    height: 50%;
+    opacity: 0.2;
+  }
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.payroll-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payroll-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.payroll-header h1, .payroll-header span{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.payroll-header h1{
+    font-size: 2.5em;
+}
+.payroll-header span{
+    font-size: 1.5em;
+}
+.payroll-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.payroll-heading h3, .payroll-heading h4{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+.payroll-heading h3{
+    text-decoration: underline;
+    font-size: 2.6em;
+    font-weight: 300;
+    color: rgb(10, 10, 133);
+}
+
+.payroll-heading h4{
+    font-size: 1.8em;
+    font-weight: 300;
+    color: rgb(6, 185, 6);
+}
+.tables-container{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tables-container span{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+
+.colored-column{
+    background-color: rgb(220, 220, 253);
+}
+.earning-heading{
+    background-color: rgb(4, 161, 4);
+}
+.deduction-heading{
+    background-color: rgb(205, 130, 116);
+}
+.earning-section{
+    background-color: rgba(99, 180, 99, 0.438);
+}
+.deduction-section{
+    background-color: rgba(121, 72, 64, 0.486);
+}
+
+.column1{
+    width: 20%;
+    background-color: rgb(220, 220, 253);
+}
+.column2{
+    width: 80%;
+}
